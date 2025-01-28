@@ -22,7 +22,8 @@ h2 {
 
 .craft {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 25vw 25vw 25vw;
+	grid-template-rows: 25vw 25vw 25vw;
 	background-color: rgba(211, 211, 211, 1);
 	margin: 40px;
 	height: 30vh;
