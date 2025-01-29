@@ -68,7 +68,7 @@ const case6 = document.getElementById("case6");
 const case7 = document.getElementById("case7");
 const case8 = document.getElementById("case8");
 
-imgAdd2.src = "./assets/iron-ingot.webp";
+imgAdd2.src = MATERIAL_IRON_INGOT_IMG;
 imgAdd2.alt = "Iron-lingot";
 
 btn1.appendChild(imgAdd2);
@@ -76,9 +76,9 @@ btn1.appendChild(imgAdd2);
 invent.appendChild(btn1);
 
 const imgAddCase0Iron = document.createElement("img");
-imgAddCase0Iron.src = "./assets/iron-ingot.webp";
+imgAddCase0Iron.src = MATERIAL_IRON_INGOT_IMG;
 const imgAddCase0Stick = document.createElement("img");
-imgAddCase0Stick.src = "./assets/stick.webp";
+imgAddCase0Stick.src = MATERIAL_STICK_IMG;
 
 btn1.addEventListener("click", () => {
 	btn1.style.border = "3px, solid, red";
@@ -135,5 +135,10 @@ btn1.addEventListener("click", () => {
 		btn1.classList.add = "active";
 		btn.style.border = "none";
 		btn1.style.border = "active";
+	} else if (
+		(btn.onclick = () => {
+			btn.classList.remove("active");
+		})
+	) {
 	}
 });
