@@ -42,7 +42,7 @@ const axeRecipeImageSrc = "./assets/iron-axe.webp";
 const recipeList = [pickaxeRecipe, axeRecipe];
 const recipeImageSrcList = [pickaxeRecipeImageSrc, axeRecipeImageSrc];
 
-const craftingTable = ["0", "1", "2", "3", "4", "5", "6", "7", "8"];
+const craftingTable = ["", "", "", "", "", "", "", "", ""];
 const inventoryTable = [1, 2];
 
 // Coder ici
@@ -62,16 +62,39 @@ invent.appendChild(btn);
 
 btn1.appendChild(imgAdd2);
 invent.appendChild(btn1);
-
-craftingTable[0] = MATERIAL_AIR_IMG;
-
-const case0 = document.getElementById("case0")[0];
+const caseCraft = document.querySelectorAll(".case");
+const case0 = document.getElementById("case0");
 const imgAddCase0 = document.createElement("img");
 imgAddCase0.src = MATERIAL_IRON_INGOT_IMG;
 
-case0.addEventListener("click"),
-	() => {
-		return imgAddCase0[0];
-	};
-
 console.log(craftingTable);
+
+let save = "";
+btn.addEventListener("click", () => {
+	btn.style.border = "3px, solid, red";
+	save = MATERIAL_STICK_IMG;
+	console.log(save);
+});
+
+let save1 = "";
+btn1.addEventListener("click", () => {
+	btn.style.border = "3px, solid, red";
+	save1 = MATERIAL_IRON_INGOT_IMG;
+	console.log(save1);
+});
+
+const imgAdd0 = document.createElement("img");
+imgAdd0.src = MATERIAL_STICK_IMG;
+
+for (let i = 0; i < caseCraft.length; i++) {
+	const caseCraftObjet = caseCraft[i];
+
+	caseCraftObjet.addEventListener("click", () => {
+		const newImg = caseCraft[i].firstElementChild;
+
+		if (newImg == null) return;
+
+		newImg.src = save;
+		newImg.alt = "stick";
+	});
+}
