@@ -77,8 +77,41 @@ invent.appendChild(btn1);
 
 const imgAddCase0Iron = document.createElement("img");
 imgAddCase0Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase1Iron = document.createElement("img");
+imgAddCase1Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase2Iron = document.createElement("img");
+imgAddCase2Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase3Iron = document.createElement("img");
+imgAddCase3Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase4Iron = document.createElement("img");
+imgAddCase4Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase5Iron = document.createElement("img");
+imgAddCase5Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase6Iron = document.createElement("img");
+imgAddCase6Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase7Iron = document.createElement("img");
+imgAddCase7Iron.src = MATERIAL_IRON_INGOT_IMG;
+const imgAddCase8Iron = document.createElement("img");
+imgAddCase8Iron.src = MATERIAL_IRON_INGOT_IMG;
+
 const imgAddCase0Stick = document.createElement("img");
 imgAddCase0Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase1Stick = document.createElement("img");
+imgAddCase1Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase2Stick = document.createElement("img");
+imgAddCase2Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase3Stick = document.createElement("img");
+imgAddCase3Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase4Stick = document.createElement("img");
+imgAddCase4Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase5Stick = document.createElement("img");
+imgAddCase5Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase6Stick = document.createElement("img");
+imgAddCase6Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase7Stick = document.createElement("img");
+imgAddCase7Stick.src = MATERIAL_STICK_IMG;
+const imgAddCase8Stick = document.createElement("img");
+imgAddCase8Stick.src = MATERIAL_STICK_IMG;
 
 btn1.addEventListener("click", () => {
 	btn1.style.border = "3px, solid, red";
@@ -91,7 +124,49 @@ btn1.addEventListener("click", () => {
 	}
 	if (
 		case1.addEventListener("click", () => {
-			case1.appendChild(imgAddCase0Iron);
+			case1.appendChild(imgAddCase1Iron);
+		})
+	) {
+	}
+	if (
+		case2.addEventListener("click", () => {
+			case2.appendChild(imgAddCase2Iron);
+		})
+	) {
+	}
+	if (
+		case3.addEventListener("click", () => {
+			case3.appendChild(imgAddCase3Iron);
+		})
+	) {
+	}
+	if (
+		case4.addEventListener("click", () => {
+			case4.appendChild(imgAddCase4Iron);
+		})
+	) {
+	}
+	if (
+		case5.addEventListener("click", () => {
+			case5.appendChild(imgAddCase5Iron);
+		})
+	) {
+	}
+	if (
+		case6.addEventListener("click", () => {
+			case6.appendChild(imgAddCase6Iron);
+		})
+	) {
+	}
+	if (
+		case7.addEventListener("click", () => {
+			case7.appendChild(imgAddCase7Iron);
+		})
+	) {
+	}
+	if (
+		case8.addEventListener("click", () => {
+			case8.appendChild(imgAddCase8Iron);
 		})
 	) {
 	}
@@ -103,6 +178,61 @@ btn.addEventListener("click", () => {
 	if (
 		case0.addEventListener("click", () => {
 			case0.appendChild(imgAddCase0Stick);
+		})
+	) {
+	}
+
+	if (
+		case1.addEventListener("click", () => {
+			case1.appendChild(imgAddCase1Stick);
+		})
+	) {
+	}
+
+	if (
+		case2.addEventListener("click", () => {
+			case2.appendChild(imgAddCase2Stick);
+		})
+	) {
+	}
+
+	if (
+		case3.addEventListener("click", () => {
+			case3.appendChild(imgAddCase3Stick);
+		})
+	) {
+	}
+
+	if (
+		case4.addEventListener("click", () => {
+			case4.appendChild(imgAddCase4Stick);
+		})
+	) {
+	}
+
+	if (
+		case5.addEventListener("click", () => {
+			case5.appendChild(imgAddCase5Stick);
+		})
+	) {
+	}
+
+	if (
+		case6.addEventListener("click", () => {
+			case6.appendChild(imgAddCase6Stick);
+		})
+	) {
+	}
+
+	if (
+		case7.addEventListener("click", () => {
+			case7.appendChild(imgAddCase7Stick);
+		})
+	) {
+	}
+	if (
+		case8.addEventListener("click", () => {
+			case8.appendChild(imgAddCase8Stick);
 		})
 	) {
 	}
